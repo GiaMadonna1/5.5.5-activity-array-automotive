@@ -84,6 +84,13 @@ class Vehicle {
         }
     }
 }
+let Car = new carType("A28 Mercury Sedan");
+class Car extends Vehicle {
+    constructor(){
+
+    }
+}
+
 
 //This exports things you want to use from this "module", more info in readme
 module.exports = {
